@@ -28,6 +28,8 @@ def binarize_FVC560(grayimage):
         r = originalgray < (mean_dark_pixels + 0.04 * mean_dark_pixels)
     else:
         # TYPE II
+        # Last condition holds here
+        # Images not exhibiting any of the above characteristics were binarized differently
         # Divide image into blocks
         r = np.zeros_like(originalgray, dtype=bool)
 

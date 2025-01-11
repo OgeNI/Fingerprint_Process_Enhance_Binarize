@@ -1,4 +1,5 @@
 import numpy as np
+import NISTSD4_binarization
 
 
 def binarize_nistsd4_straightforward(grayimage):

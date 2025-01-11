@@ -2,6 +2,7 @@ import os
 import time
 import cv2
 import numpy as np
+import binarize_nistsd4_straightforward
 
 
 # Load NIST images (assuming filenames and Num_of_imgs are defined)
@@ -12,13 +13,6 @@ def load_nist_images():
     filenames = [{"name": f"image_{i}.png"} for i in range(1, 41)]  # Example filenames
     Num_of_imgs = len(filenames)
     return filenames, Num_of_imgs
-
-
-def binarize_nistsd4_straightforward(image):
-    # Example binarization function
-    # You can replace this with the actual binarization logic
-    _, binary_image = cv2.threshold(image, 128, 255, cv2.THRESH_BINARY)
-    return binary_image
 
 
 def main():
