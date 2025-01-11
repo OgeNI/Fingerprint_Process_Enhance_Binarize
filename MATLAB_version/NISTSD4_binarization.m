@@ -10,8 +10,7 @@ G_var = Var_dark_pixels; % Global variance set
 
 G_Bin_T = mean_dark_pixels; % global binarization threshold set
 
-% Set thresholds for variance and mean - lowand high (6 values
-% here).
+% Set thresholds for variance and mean - low and high 
 % The normal range will be between the low and high values for the variance
 % and mean
 G_var_low = G_var*0.6; % G_var - 0.4 of G_var
@@ -97,13 +96,13 @@ else
     % Perform this in the horizontal direction
     r=[]; 
 %     for i = 1:rows_image % step in 4 down the image rows
-     for i = 1:8:rows_image % step in 4 down the image rows
+     for i = 1:8:rows_image % step in 8 down the image rows
     %     
         k=[];
         for j= 1:80:cols_image % step in 80 over the image columns
 %             m.i.j=originalgray(i, j:(j+39)); % create sub images ,sub regions of size...
             m.i.j=originalgray(i:(i+7), j:(j+79)); % create sub images ,sub regions of size...
-            % 4 by 239 at each step. Remember the steps increase by 31 in
+            % 8 by 239 at each step. Remember the steps increase by 80 in
             % columns
     % %        Get the local mean and local variance called Lmean & Lvar
     % respectively.

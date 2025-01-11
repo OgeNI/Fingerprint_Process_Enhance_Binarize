@@ -35,7 +35,7 @@ if mean_dark_pixels < 140 && Var_dark_pixels < 2000 % Global approach is used th
 else
 % TYPE II
 %     Last condition holds here
-%      Images not exhibiting any of the above characteristics in Types I – IV were binarized differently
+%      Images not exhibiting any of the above characteristics were binarized differently
 %     tow_t = 170;
 %     Divide image into 16 blocks
     r=[]; 
@@ -47,8 +47,8 @@ else
             m.i.j=originalgray(i:(i+25), j:(j+15)); % create sub images sub regions of size...
                 double_m=double(m.i.j);
 %                 double_m=double_m(:); % columnize block
-%          The local mean, ?_L, of all pixel values in a block below a
-%          threshold, ?, tow_t is computed.
+%          The local mean of all pixel values in a block below a
+%          threshold, tow_t is computed.
 
                 Lvar = var(double_m(double_m < 170));
                 Lmean =  mean(double_m(double_m < 170));

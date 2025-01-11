@@ -78,7 +78,7 @@ else
             elseif Lvar >  G_var_low && Lvar <  G_var_high && Lmean <= G_mean_low  % Condition 4: Dark colour ridges and some light background
                Binarized_m = m.i.j >  round(G_Bin_T * 1.05); 
                
-            elseif Lvar >  G_var_low && Lvar <  G_var_high && Lmean > G_mean_low  && Lmean < G_mean_high  % Condition 5: Good normal ridges or contains equla dark & light pixels
+            elseif Lvar >  G_var_low && Lvar <  G_var_high && Lmean > G_mean_low  && Lmean < G_mean_high  % Condition 5: Good normal ridges or contains equal dark & light pixels
                Binarized_m = m.i.j >  round(Lmean * 1.05); 
                
             elseif Lvar >  G_var_low && Lvar <  G_var_high && Lmean >= G_mean_high  % Condition 6: Spaced ridges

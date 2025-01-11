@@ -1,6 +1,6 @@
 % -------------------------------------------------------------------------
 % Read in FVC Images 
-dpathimread='Z:\OGE_MY_FOLDERS\DB_FP_IMAGES\FVC_IMAGES\DB3_A_2000\'; % 
+dpathimread='\'; % 
 % 
 filenames = dir([dpathimread '*.tif']);
 
@@ -43,8 +43,8 @@ for i = 1:Num_of_imgs
 %     newfile=[dpathsaveimg newname '.tiff'];
 %     
 %     save(newfile, 'binarizeImage');   
-
-  {i, newname}
+  % 
+  % {i, newname}
 
 end
 toc

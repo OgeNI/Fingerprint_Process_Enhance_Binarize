@@ -1,7 +1,7 @@
 
 % -------------------------------------------------------------------------
-load LoadNISTImages
-
+dpathimread = '';
+filenames = dir([dpathimread '*.bmp']);
 % Path to save images
 dpathsaveimg = '\';
 tic

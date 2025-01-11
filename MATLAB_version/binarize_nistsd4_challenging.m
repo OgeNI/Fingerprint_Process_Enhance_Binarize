@@ -89,8 +89,6 @@ originalgray=originalgray(hortlimit:end,vertlimit:end);
 % ~~~~~~~~~~~~~~~~~ no such pixels, therefore ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % else % there COULD be outliers of same pixel value as ridges
 
-
-
     rows_image=size(originalgray,1);
     cols_image=size(originalgray,2);
     % the image rows and columns.
