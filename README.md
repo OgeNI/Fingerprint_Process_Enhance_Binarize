@@ -1,6 +1,6 @@
 # FingerprintProcessBinarize Repository
 
-## Fingerprint image processing and binarization algorithms in Python & MATLAB m-codes 
+## Fingerprint image processing/enhancement and binarization algorithms in Python & MATLAB m-codes 
 
 ##### 
 The codes in this repository proposes carry out an adaptive contrast enhancement and binarisation of fair and poor qualities plain and rolled fingerprints with large regions of low quality, prior to orientation field estimation. The algorithm effectively enhances smudged and faded ridges uniformly in recoverable regions, based on values of statistical variables computed locally in each region. The preprocessing algorithm employs a locally adaptive thresholding approach resulting in enhanced binarised images. 
