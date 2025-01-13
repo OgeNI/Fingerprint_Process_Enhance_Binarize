@@ -1,6 +1,28 @@
 import numpy as np
 import NISTSD4_binarization
 
+# -------------------------------------------------------------------------
+# Step 1: filter out outliers below pixel value of Glowlimit. They are obviously
+# not ridges. Check image for such pixels and replace with 255, this is
+# done in the first part of the if ... else loop below.
+# Filter out outliers in image and replace those pixels with pixel value
+# 250, mask the resulting image with the original image. The first part of
+# the if ... else loop applies this generally to the image to pixels values
+# less than Glowlimit.
+# Or, Filter out outliers of the same pixel value as  ridges in the image.
+# Note that ridges are characterized by undulating pixel values like
+# [68,72,84,81, 116,123,111, 131, 126, 79, 81, 76, 85 ...] while marks and
+# prints or scars are typically characterized by short groups of dark
+# pixels in the midst of lighter pixels (if scars are not embedded in
+# ridges). Once the group is spotted, the first part of the if ... else
+# loop removes them and replaces the pixels with 255.
+# These pixels are replace along the horizontal and vertical directions in
+# the image and image is combined as one at the end.
+# if no such pixels exist, then the scars of marks if present may be
+# embedded in ridges, so the reasonable thing to do is to crop the image at
+# that point. the next part of the if ... else loop does that.
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 def binarize_nistsd4_challenging(grayimage):
     originalgray = grayimage.copy()
