@@ -1,1 +1,46 @@
 # FingerprintProcessBinarize
+
+# A fingerprint image processing and binarization algorithm 
+
+##### The codes in this repository proposes carry out an adaptive contrast enhancement and binarisation of fair and poor qualities plain and rolled fingerprints with large regions of low quality, prior to orientation field estimation. The algorithm effectively enhances smudged and faded ridges uniformly in recoverable regions, based on values of statistical variables computed locally in each region. The preprocessing algorithm employs a locally adaptive thresholding approach resulting in enhanced binarised images. 
+
+<hr/>
+
+# ReadMe Instrctions
+
+### Code Implementation
+##### The codes were originally implemented in m-codes and recently translated to Python. There are two folders of codes for m-codes (MATLAB) and python respectively.
+
+
+### Database
+The Fingerprint Verification Competition (FVC) Benchmarked databases are available from the following <a href="link http://bias.csr.unibo.it/fvc2000/databases.asp"> FVC Databases </a>
+
+### Code Usage
+
+##### 
+Use Step 1 codes for the FVC and any scanned fingerprints <br>
+Use Step 2 codes for rolled fingerprints or the NIST Special Database 4 (SD4) if available<br>
+<i>(Please note that the NISTSD4 has been withdrawn and read the following information <a href="https://www.nist.gov/srd/nist-special-database-4">here</a> on the possibility of a future dataset</i>.
+
+<hr/>
+
+# Citation of the Published Paper
+
+##### The codes were developed and based on the following IET Image processing journal paper <a href="https://digital-library.theiet.org/doi/10.1049/iet-bmt.2015.0064">Effective statistical-based and dynamic fingerprint preprocessing technique</a>. <br>
+
+The following should therefore be cited whenever these codes are used in a research or published article:
+
+@article{doi:10.1049/iet-bmt.2015.0064,
+author = {Ogechukwu N. Iloanusi },
+title = {Effective statistical-based and dynamic fingerprint preprocessing technique},
+journal = {IET Biometrics},
+volume = {6},
+issue = {1},
+pages = {9-18},
+year = {2017},
+doi = {10.1049/iet-bmt.2015.0064},
+URL = {https://digital-library.theiet.org/doi/abs/10.1049/iet-bmt.2015.0064},
+eprint = {https://digital-library.theiet.org/doi/pdf/10.1049/iet-bmt.2015.0064}
+}
+
+<hr/>
