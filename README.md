@@ -1,4 +1,4 @@
-# FingerprintProcessBinarize
+# FingerprintProcessBinarize Repository
 
 # A fingerprint image processing and binarization algorithm 
 
