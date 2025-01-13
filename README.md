@@ -1,13 +1,13 @@
 # FingerprintProcessBinarize Repository
 
-# A fingerprint image processing and binarization algorithm 
+## A fingerprint image processing and binarization algorithm 
 
 ##### 
 The codes in this repository proposes carry out an adaptive contrast enhancement and binarisation of fair and poor qualities plain and rolled fingerprints with large regions of low quality, prior to orientation field estimation. The algorithm effectively enhances smudged and faded ridges uniformly in recoverable regions, based on values of statistical variables computed locally in each region. The preprocessing algorithm employs a locally adaptive thresholding approach resulting in enhanced binarised images. 
 
 <hr/>
 
-# ReadMe Instructions
+## ReadMe Instructions
 
 ### Code Implementation
 ##### 
@@ -30,9 +30,10 @@ You need to pass in your input and output folder paths while running the codes
 
 <hr/>
 
-# Citation of the Published Paper
+## Citation of the Published Paper
 
-##### The codes were developed and based on the following IET Image processing journal paper <a href="https://digital-library.theiet.org/doi/10.1049/iet-bmt.2015.0064">Effective statistical-based and dynamic fingerprint preprocessing technique</a>. <br>
+##### 
+The codes were developed and based on the following IET Image processing journal paper <a href="https://digital-library.theiet.org/doi/10.1049/iet-bmt.2015.0064">Effective statistical-based and dynamic fingerprint preprocessing technique</a>. <br>
 
 The following should therefore be cited whenever these codes are used in a research or published article:
 
