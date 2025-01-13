@@ -2,14 +2,16 @@
 
 # A fingerprint image processing and binarization algorithm 
 
-##### The codes in this repository proposes carry out an adaptive contrast enhancement and binarisation of fair and poor qualities plain and rolled fingerprints with large regions of low quality, prior to orientation field estimation. The algorithm effectively enhances smudged and faded ridges uniformly in recoverable regions, based on values of statistical variables computed locally in each region. The preprocessing algorithm employs a locally adaptive thresholding approach resulting in enhanced binarised images. 
+##### 
+The codes in this repository proposes carry out an adaptive contrast enhancement and binarisation of fair and poor qualities plain and rolled fingerprints with large regions of low quality, prior to orientation field estimation. The algorithm effectively enhances smudged and faded ridges uniformly in recoverable regions, based on values of statistical variables computed locally in each region. The preprocessing algorithm employs a locally adaptive thresholding approach resulting in enhanced binarised images. 
 
 <hr/>
 
-# ReadMe Instrctions
+# ReadMe Instructions
 
 ### Code Implementation
-##### The codes were originally implemented in m-codes and recently translated to Python. There are two folders of codes for m-codes (MATLAB) and python respectively.
+##### 
+The codes were originally implemented in m-codes and recently translated to Python. There are two folders of codes for m-codes (MATLAB) and python respectively, and are meant to be used separately.
 
 
 ### Database
@@ -18,9 +20,13 @@ The Fingerprint Verification Competition (FVC) Benchmarked databases are availab
 ### Code Usage
 
 ##### 
-Use Step 1 codes for the FVC and any scanned fingerprints <br>
-Use Step 2 codes for rolled fingerprints or the NIST Special Database 4 (SD4) if available<br>
+1. Use Step 1 codes for the FVC and any scanned fingerprints <br>
+2. Use Step 2 codes for rolled fingerprints or the NIST Special Database 4 (SD4) if available<br>
 <i>(Please note that the NISTSD4 has been withdrawn and read the following information <a href="https://www.nist.gov/srd/nist-special-database-4">here</a> on the possibility of a future dataset</i>.
+
+The rest of the codes are functions.
+
+You need to pass in your input and output folder paths while running the codes
 
 <hr/>
 
