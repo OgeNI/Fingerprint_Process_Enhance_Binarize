@@ -15,7 +15,7 @@ The codes were originally implemented in m-codes and recently translated to Pyth
 
 
 ### Database
-The Fingerprint Verification Competition (FVC) Benchmarked databases are available from the following <a href="link https://bias.csr.unibo.it/fvc2000/databases.asp"> FVC Databases </a>
+The Fingerprint Verification Competition (FVC) Benchmarked databases are available from the following link: <a href="http://bias.csr.unibo.it/fvc2000/databases.asp"> FVC Databases </a> 
 
 ### Code Usage
 
