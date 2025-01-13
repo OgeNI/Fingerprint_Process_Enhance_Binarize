@@ -37,17 +37,17 @@ The codes were developed and based on the following IET Image processing journal
 
 The following should therefore be cited whenever these codes are used in a research or published article:
 
-@article{doi:10.1049/iet-bmt.2015.0064,
-author = {Ogechukwu N. Iloanusi },
-title = {Effective statistical-based and dynamic fingerprint preprocessing technique},
-journal = {IET Biometrics},
-volume = {6},
-issue = {1},
-pages = {9-18},
-year = {2017},
-doi = {10.1049/iet-bmt.2015.0064},
-URL = {https://digital-library.theiet.org/doi/abs/10.1049/iet-bmt.2015.0064},
-eprint = {https://digital-library.theiet.org/doi/pdf/10.1049/iet-bmt.2015.0064}
+@article{doi:10.1049/iet-bmt.2015.0064, <br>
+author = {Ogechukwu N. Iloanusi }, <br>
+title = {Effective statistical-based and dynamic fingerprint preprocessing technique}, <br>
+journal = {IET Biometrics}, <br>
+volume = {6}, <br>
+issue = {1}, <br>
+pages = {9-18}, <br>
+year = {2017}, <br>
+doi = {10.1049/iet-bmt.2015.0064}, <br>
+URL = {https://digital-library.theiet.org/doi/abs/10.1049/iet-bmt.2015.0064}, <br>
+eprint = {https://digital-library.theiet.org/doi/pdf/10.1049/iet-bmt.2015.0064} <br>
 }
 
 <hr/>
