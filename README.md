@@ -1,4 +1,4 @@
-# FingerprintProcessBinarize Repository
+# Fingerprint Process Enhance Binarize - Repository
 
 ## Fingerprint image processing/enhancement and binarization algorithms in Python & MATLAB m-codes 
 
