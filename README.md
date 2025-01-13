@@ -33,7 +33,7 @@ You need to pass in your input and output folder paths while running the codes
 ## Citation of the Published Paper
 
 ##### 
-The codes were developed and based on the following IET Image processing journal paper <a href="https://digital-library.theiet.org/doi/10.1049/iet-bmt.2015.0064">Effective statistical-based and dynamic fingerprint preprocessing technique</a>. <br>
+The codes were developed and based on the following published IET Image processing journal paper <a href="https://digital-library.theiet.org/doi/10.1049/iet-bmt.2015.0064">Effective statistical-based and dynamic fingerprint preprocessing technique</a>. <br>
 
 The following should therefore be cited whenever these codes are used in a research or published article:
 
